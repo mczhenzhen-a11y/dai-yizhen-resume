@@ -439,3 +439,24 @@
 - **隐私保护清单**：身份证 / 银行卡 / 薪资绝对禁止；手机号 / 邮箱 / 学校全名 / 项目作品链接保留
 - **30 个文件批量入库**：ima import_urls 单次最多 10 个 → 至少 7 次调用
 - **下一步**：用户创建 GitHub 仓库 → 复制目录结构和模板文件 → push → 跑脚本生成 URL → 验证 → 批量入库
+
+---
+
+### GitHub 仓库上线与推送修复（2026-10-10 上午 · 方案 A）
+
+**问题**：首次网页上传失败——仓库名拼错为 `resume`，且把命令文本存成了名为 `dai-yizhen-resume` 的纯文本文件，30 版简历一份都没上去。
+
+**修复（方案 A：删库重建）**：
+1. 删除旧仓库 `mczhenzhen-a11y/resume`
+2. 新建空仓库 `mczhenzhen-a11y/dai-yizhen-resume`（public / main）
+3. 本地 `git remote add origin` + `git push -u origin main` → 成功（3 commits / 84 文件）
+4. Playwright 验证：首页 6 目录 + 4 根文件 + "3 Commits"；`resumes/` 31 项；raw URL HTTP 200（14,396 bytes）
+
+**修复的脚本 bug**：`gen_urls.py` 把本机绝对路径写进 URL（`.../main/C%3A/Users/33898/...`）导致全部 404 → 改用 `relative_to(repo_root)`，并把默认 owner 固化为 `mczhenzhen-a11y`。重新生成 80 条 URL，`verify_urls.py` 验证 **80/80 全 200**。
+
+**交付物**：
+- 线上仓库：https://github.com/mczhenzhen-a11y/dai-yizhen-resume
+- `scripts/url-list.txt`：80 条 raw URL，按 10 个一批分 8 块，可直接喂 ima
+- 仓库内 3 份文档的占位符用户名统一为 `mczhenzhen-a11y`
+
+**下一步**：分 8 批调用 `mcp__ima-mcp__import_urls`（知识库「臻臻的知识库」id `001a966167c03b1f`，策略 `DUPLICATE_NAME_STRATEGY_REPLACE`）
