@@ -454,9 +454,16 @@
 
 **修复的脚本 bug**：`gen_urls.py` 把本机绝对路径写进 URL（`.../main/C%3A/Users/33898/...`）导致全部 404 → 改用 `relative_to(repo_root)`，并把默认 owner 固化为 `mczhenzhen-a11y`。重新生成 80 条 URL，`verify_urls.py` 验证 **80/80 全 200**。
 
+**又被两个坑绊了一下（已修）**：
+- `git push` 经代理（127.0.0.1:7897）无限挂起 —— 根因是 **HTTP/2 兼容问题**，`git config http.version HTTP/1.1` 后**秒推**
+- 仓库 `README.md` 每行多 8 空格前导缩进（Markdown 会整篇渲染成代码块）→ 去缩进 51 行
+- 补 `templates/README.md`，让空目录可被 git 跟踪
+
+**最终状态**：线上 **7 目录 + 4 根文件 / 7 Commits**；`scripts/url-list.txt` **81 条**（9 批），`verify_urls.py` 验证 **81/81 全 200** ✅
+
 **交付物**：
 - 线上仓库：https://github.com/mczhenzhen-a11y/dai-yizhen-resume
-- `scripts/url-list.txt`：80 条 raw URL，按 10 个一批分 8 块，可直接喂 ima
-- 仓库内 3 份文档的占位符用户名统一为 `mczhenzhen-a11y`
+- `scripts/url-list.txt`：81 条 raw URL，按 10 个一批分 9 块，可直接喂 ima
+- 仓库 + 工作区文档的占位符用户名全部统一为 `mczhenzhen-a11y`
 
-**下一步**：分 8 批调用 `mcp__ima-mcp__import_urls`（知识库「臻臻的知识库」id `001a966167c03b1f`，策略 `DUPLICATE_NAME_STRATEGY_REPLACE`）
+**下一步**：分 9 批调用 `mcp__ima-mcp__import_urls`（知识库「臻臻的知识库」id `001a966167c03b1f`，策略 `DUPLICATE_NAME_STRATEGY_REPLACE`）
