@@ -87,16 +87,16 @@ dai-yizhen-resume/
 GitHub 公开仓库的 raw 文件 URL 格式固定：
 
 ```
-https://raw.githubusercontent.com/<用户名>/dai-yizhen-resume/<分支>/<路径>
+https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/<路径>
 ```
 
-示例（仓库属 `yizhen-career` 用户，主分支 `main`）：
+示例（仓库属 `mczhenzhen-a11y`，主分支 `main`）：
 ```
-https://raw.githubusercontent.com/yizhen-career/dai-yizhen-resume/main/resumes/戴易臻_得物App_Z.md
-https://raw.githubusercontent.com/yizhen-career/dai-yizhen-resume/main/reports/JD拆解与证据矩阵_得物App.md
+https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/resumes/戴易臻_得物App_Z.md
+https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/reports/JD拆解与证据矩阵_得物App.md
 ```
 
-**注意**：文件名含中文，URL 需用 UTF-8 编码（脚本里 `urllib.parse.quote` 会自动处理）。
+**注意**：文件名含中文，URL 需用 UTF-8 编码（脚本里 `urllib.parse.quote` 会自动处理）；路径必须是**相对仓库根**的（如 `resumes/xxx.md`），不可混入本机绝对路径（否则会生成 404）。
 
 ## 五、隐私保护清单
 
@@ -164,7 +164,7 @@ git checkout -b main
 git add .
 git commit -m "初始化：30 版简历 + 39 份报告 + ima 自动入库脚本"
 git branch -M main
-git remote add origin https://github.com/<用户名>/dai-yizhen-resume.git
+git remote add origin https://github.com/mczhenzhen-a11y/dai-yizhen-resume.git
 git push -u origin main
 
 # 4. 启用 GitHub Pages（可选，用于美化展示）

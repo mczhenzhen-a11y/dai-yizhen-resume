@@ -420,7 +420,7 @@
 
 ### GitHub 简历库仓库设计方案（2026-10-10）
 - **目的**：把 30 版简历 + 39 份配套报告统一托管到公开 GitHub 仓库，让 ima 用 `import_urls` 自动批量入库
-- **仓库命名建议**：`dai-yizhen-resume`（用户名 `yizhen-career`）
+- **仓库命名**：`dai-yizhen-resume`（用户名 `mczhenzhen-a11y`，public，main 分支）
 - **目录结构**（6 大块）：
   - `docs/`（求职方法论 / 总览，4 份）
   - `resumes/`（30 版简历，核心交付）
