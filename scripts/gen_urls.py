@@ -6,7 +6,7 @@ gen_urls.py — 生成仓库所有 .md 文件的 raw.githubusercontent.com URL �
 
 用法：
     python scripts/gen_urls.py                      # 默认读取当前仓库
-    python scripts/gen_urls.py --owner yizhen-career --repo dai-yizhen-resume --branch main
+    python scripts/gen_urls.py --owner mczhenzhen-a11y --repo dai-yizhen-resume --branch main
     python scripts/gen_urls.py --only resumes/      # 只生成简历类
     python scripts/gen_urls.py --output urls.txt    # 自定义输出文件
 
@@ -48,7 +48,7 @@ def find_markdown_files(repo_root: Path, include_dirs: list = None) -> list:
 
 
 def build_raw_url(owner: str, repo: str, branch: str, file_path: Path) -> str:
-    """构造 raw.githubusercontent.com URL"""
+    """构造 raw.githubusercontent.com URL（file_path 必须是相对仓库根的路径）"""
     # UTF-8 编码路径（中文文件名必须）
     encoded_path = quote(str(file_path).replace('\\', '/'), safe='/')
     return f"https://raw.githubusercontent.com/{owner}/{repo}/{branch}/{encoded_path}"
@@ -66,7 +66,7 @@ def main():
         epilog=__doc__,
     )
     parser.add_argument(
-        '--owner', default=os.environ.get('GITHUB_OWNER', 'yizhen-career'),
+        '--owner', default=os.environ.get('GITHUB_OWNER', 'mczhenzhen-a11y'),
         help='GitHub 用户名或组织名（默认读取环境变量 GITHUB_OWNER）',
     )
     parser.add_argument(
@@ -103,8 +103,11 @@ def main():
         print(f"❌ 未找到任何 .md 文件（仓库根目录：{repo_root}）", file=sys.stderr)
         sys.exit(1)
 
-    # 生成 URL 列表
-    urls = [build_raw_url(args.owner, args.repo, args.branch, f) for f in md_files]
+    # 生成 URL 列表（使用相对仓库根的路径，避免混入本机绝对路径）
+    urls = [
+        build_raw_url(args.owner, args.repo, args.branch, f.relative_to(repo_root))
+        for f in md_files
+    ]
 
     # 写出
     output_path = repo_root / args.output
