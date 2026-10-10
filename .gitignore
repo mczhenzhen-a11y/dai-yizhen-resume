@@ -1,0 +1,39 @@
+        # 操作系统
+        .DS_Store
+        Thumbs.db
+        desktop.ini
+
+        # 编辑器
+        .vscode/
+        .idea/
+        *.swp
+        *.swo
+        *~
+
+        # Python
+        __pycache__/
+        *.pyc
+        *.pyo
+        .venv/
+
+        # 本地工作区文件（不入库）
+        .workbuddy/
+        tmp_*
+        *.tmp
+        *.bak
+        *_backup_*
+
+        # 私有 / 完整版简历（仅本地保留）
+        *_full.md
+        *_private.md
+        *~private~*
+
+        # 脚本生成的 URL 列表
+        scripts/url-list.txt
+
+        # 敏感信息（绝对禁止入库）
+        *身份证*
+        *银行卡*
+        *薪资*
+        *salary*
+        
