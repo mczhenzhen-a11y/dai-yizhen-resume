@@ -1,6 +1,6 @@
 # URL 列表 — 自动生成于 gen_urls.py
 # 仓库：mczhenzhen-a11y/dai-yizhen-resume@main
-# 文件总数：81
+# 文件总数：82
 # ima import_urls 单次最多 10 个 → 分 9 批
 
 # ─── 批次 1/9（共 10 个）───
@@ -49,9 +49,10 @@ https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/reports
 https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/reports/JD%E6%8B%86%E8%A7%A3%E4%B8%8E%E8%AF%81%E6%8D%AE%E7%9F%A9%E9%98%B5_%E4%BA%AC%E4%B8%9C%E6%8A%80%E6%9C%AFPM%E6%A0%A1%E6%8B%9B.md
 https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/reports/JD%E6%8B%86%E8%A7%A3%E4%B8%8E%E8%AF%81%E6%8D%AE%E7%9F%A9%E9%98%B5_%E4%BF%A1%E4%BA%BA%E6%99%BA%E8%83%BD.md
 https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/reports/JD%E6%8B%86%E8%A7%A3%E4%B8%8E%E8%AF%81%E6%8D%AE%E7%9F%A9%E9%98%B5_%E5%80%8D%E6%80%9D%E5%A5%87IoT%E4%BA%A7%E5%93%81%E5%8A%A9%E7%90%86.md
-https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/reports/JD%E6%8B%86%E8%A7%A3%E4%B8%8E%E8%AF%81%E6%8D%AE%E7%9F%A9%E9%98%B5_%E5%B0%8F%E7%B1%B3UIUE%E5%AE%9E%E4%B9%A0%E7%94%9F.md
+https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/reports/JD%E6%8B%86%E8%A7%A3%E4%B8%8E%E8%AF%81%E6%8D%AE%E7%9F%A9%E9%98%B5_%E5%8D%9A%E6%99%BA%E4%BF%A1%E6%81%AF_v2.md
 
 # ─── 批次 5/9（共 10 个）───
+https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/reports/JD%E6%8B%86%E8%A7%A3%E4%B8%8E%E8%AF%81%E6%8D%AE%E7%9F%A9%E9%98%B5_%E5%B0%8F%E7%B1%B3UIUE%E5%AE%9E%E4%B9%A0%E7%94%9F.md
 https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/reports/JD%E6%8B%86%E8%A7%A3%E4%B8%8E%E8%AF%81%E6%8D%AE%E7%9F%A9%E9%98%B5_%E5%B1%B1%E8%A1%8C%E9%B8%A0%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%E6%A0%A1%E6%8B%9B.md
 https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/reports/JD%E6%8B%86%E8%A7%A3%E4%B8%8E%E8%AF%81%E6%8D%AE%E7%9F%A9%E9%98%B5_%E5%BE%97%E7%89%A9App%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86.md
 https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/reports/JD%E6%8B%86%E8%A7%A3%E4%B8%8E%E8%AF%81%E6%8D%AE%E7%9F%A9%E9%98%B5_%E5%BF%AB%E6%89%8B%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81.md
@@ -61,9 +62,9 @@ https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/reports
 https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/reports/JD%E6%8B%86%E8%A7%A3%E4%B8%8E%E8%AF%81%E6%8D%AE%E7%9F%A9%E9%98%B5_%E9%98%BF%E9%87%8C2027%E5%B1%8A%E6%A0%A1%E6%8B%9B.md
 https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/reports/JD%E6%8B%86%E8%A7%A3%E4%B8%8E%E8%AF%81%E6%8D%AE%E7%9F%A9%E9%98%B5_%E9%BA%A6%E5%BD%93%E5%8A%B3%E8%AE%BE%E8%AE%A1%E5%AE%9E%E4%B9%A0%E7%94%9F.md
 https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/reports/README.md
-https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/resumes/README.md
 
 # ─── 批次 6/9（共 10 个）───
+https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/resumes/README.md
 https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/resumes/%E6%88%B4%E6%98%93%E8%87%BB_AI%E4%BD%93%E9%AA%8C_O.md
 https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/resumes/%E6%88%B4%E6%98%93%E8%87%BB_AI%E6%97%B6%E4%BB%A3_P.md
 https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/resumes/%E6%88%B4%E6%98%93%E8%87%BB_B%E7%AB%99AI%E8%A7%86%E8%A7%89_G.md
@@ -73,9 +74,9 @@ https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/resumes
 https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/resumes/%E6%88%B4%E6%98%93%E8%87%BB_OPPO_L.md
 https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/resumes/%E6%88%B4%E6%98%93%E8%87%BB_%E4%B8%87%E8%BE%B0_S.md
 https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/resumes/%E6%88%B4%E6%98%93%E8%87%BB_%E4%BA%A4%E4%BA%92%E8%AE%BE%E8%AE%A1_E.md
-https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/resumes/%E6%88%B4%E6%98%93%E8%87%BB_%E4%BA%A4%E6%98%93%E4%B8%AD%E5%8F%B0_W.md
 
 # ─── 批次 7/9（共 10 个）───
+https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/resumes/%E6%88%B4%E6%98%93%E8%87%BB_%E4%BA%A4%E6%98%93%E4%B8%AD%E5%8F%B0_W.md
 https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/resumes/%E6%88%B4%E6%98%93%E8%87%BB_%E4%BA%AC%E4%B8%9C%E6%8A%80%E6%9C%AFPM_T.md
 https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/resumes/%E6%88%B4%E6%98%93%E8%87%BB_%E4%BF%A1%E4%BA%BAAI_U.md
 https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/resumes/%E6%88%B4%E6%98%93%E8%87%BB_%E4%BF%A1%E4%BA%BA%E6%96%B0%E5%AA%92%E4%BD%93_V.md
@@ -85,9 +86,9 @@ https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/resumes
 https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/resumes/%E6%88%B4%E6%98%93%E8%87%BB_%E5%B7%A5%E4%B8%9A%E4%BA%A7%E5%93%81_C.md
 https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/resumes/%E6%88%B4%E6%98%93%E8%87%BB_%E5%BE%97%E7%89%A9App_Z.md
 https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/resumes/%E6%88%B4%E6%98%93%E8%87%BB_%E5%BF%AB%E6%89%8B%E7%94%B5%E5%95%86_X.md
-https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/resumes/%E6%88%B4%E6%98%93%E8%87%BB_%E6%AC%A7%E5%B0%94%E5%AD%9A%E7%89%B9_AB.md
 
 # ─── 批次 8/9（共 10 个）───
+https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/resumes/%E6%88%B4%E6%98%93%E8%87%BB_%E6%AC%A7%E5%B0%94%E5%AD%9A%E7%89%B9_AB.md
 https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/resumes/%E6%88%B4%E6%98%93%E8%87%BB_%E6%B8%B8%E6%88%8FUI_N.md
 https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/resumes/%E6%88%B4%E6%98%93%E8%87%BB_%E7%94%B5%E5%95%86%E4%BA%A4%E4%BA%92_K.md
 https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/resumes/%E6%88%B4%E6%98%93%E8%87%BB_%E7%94%B5%E5%95%86%E6%96%B0%E5%93%81_AA.md
@@ -97,8 +98,8 @@ https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/resumes
 https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/resumes/%E6%88%B4%E6%98%93%E8%87%BB_%E9%80%9A%E7%94%A8PM_Y.md
 https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/resumes/%E6%88%B4%E6%98%93%E8%87%BB_%E9%98%BF%E9%87%8C%E4%BD%93%E9%AA%8C_B.md
 https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/resumes/%E6%88%B4%E6%98%93%E8%87%BB_%E9%98%BF%E9%87%8C%E6%A0%A1%E6%8B%9B_J.md
-https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/resumes/%E6%88%B4%E6%98%93%E8%87%BB_%E9%BA%A6%E5%BD%93%E5%8A%B3_M.md
 
-# ─── 批次 9/9（共 1 个）───
+# ─── 批次 9/9（共 2 个）───
+https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/resumes/%E6%88%B4%E6%98%93%E8%87%BB_%E9%BA%A6%E5%BD%93%E5%8A%B3_M.md
 https://raw.githubusercontent.com/mczhenzhen-a11y/dai-yizhen-resume/main/templates/README.md
 
